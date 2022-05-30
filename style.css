@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.3;
+    font-family: 'Karla', sans-serif;
+    color: var(--Ltgray);
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --Ltgray: hsl(204, 43%, 93%);
+    --grayblue: hsl(218, 22%, 67%);
+}
