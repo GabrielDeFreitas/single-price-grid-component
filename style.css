@@ -22,6 +22,7 @@ body {
     --cyan: hsl(179, 62%, 40%);
     --Ltcyan: hsl(179, 62%, 45%);
     --yellow: hsl(71, 73%, 54%);
+    --dkyellow: hsl(71, 73%, 48%);
     --Ltgray: hsl(204, 43%, 93%);
     --grayblue: hsl(218, 22%, 67%);
     --paddingX: 1.8rem;
@@ -124,6 +125,11 @@ p {
     text-align: center;
     border-radius: 0.25rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: background-color 200ms ease;
+}
+
+.subscription a:hover {
+    background-color: var(--dkyellow);
 }
 
 .why {
